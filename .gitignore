@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+
+*/migrations/__pycache__/
+
+*.sqlite3
+
+.vscode
+.idea
+
+.DS_Store
+
+*.log
+*.pot
+
+media/
+
+staticfiles
+static/
+
+htmlcov/
+.coverage
+coverage.xml

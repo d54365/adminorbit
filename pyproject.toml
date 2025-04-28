@@ -1,0 +1,18 @@
+[project]
+name = "adminorbit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.5.2",
+    "django>=5.2",
+    "django-cors-headers>=4.7.0",
+    "django-db-connection-pool>=1.2.5",
+    "django-environ>=0.12.0",
+    "djangorestframework>=3.16.0",
+    "gitlint>=0.19.1",
+    "mysqlclient>=2.2.7",
+    "pre-commit>=4.2.0",
+    "redis>=5.2.1",
+]
